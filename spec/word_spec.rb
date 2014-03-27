@@ -1,5 +1,5 @@
 require_relative "helpers"
-require_relative "../lib/word"
+require_relative "../lib/spam_filter/word"
 
 describe "A word" do
   before :all do

@@ -1,7 +1,7 @@
 require_relative "helpers"
-require_relative "../lib/brain"
-require_relative "../lib/message"
-require_relative "../lib/word"
+require_relative "../lib/spam_filter/brain"
+require_relative "../lib/spam_filter/message"
+require_relative "../lib/spam_filter/word"
 
 describe "The brain" do
   before :all do
